@@ -40,7 +40,7 @@ def mostrar_menu():
 
 
 def mostrar_golosinas():
-    print("\n--- STOCK DE GOLOSINAS ---")
+    print("\n STOCK DE GOLOSINAS ")
     for codigo, nombre, stock in golosinas:
         print(f"{codigo}. {nombre} -> Stock: {stock}")
 
